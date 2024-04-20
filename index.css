@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.legend-items {
+    flex-basis: 24%;
+}
+
+@media only screen and (  min-width: 200px) and ( max-width:800px){
+     .container{  width: 100%; flex-direction: column; }
+     .legend-items{ margin: 10px;}
+}
